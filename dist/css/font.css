@@ -1,0 +1,35 @@
+@font-face {
+    font-family: plusj;
+    src: url(fonts/PlusJakartaSans-Variable.ttf);
+  }
+  
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+  }
+
+@font-face {
+  font-family: chillax;
+  src: url(fonts/Chillax-Variable.ttf);
+}
+
+.navbar-brand{
+  font-family: chillax;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+}
+
+.nav-item{
+  font-family: plusj;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.brand-presentation-text-white{
+  font-family: plusj; font-weight: 500; word-wrap: break-word;
+}
+
+.brand-presentation-text-green{
+  font-family: chillax; font-weight: 700; word-wrap: break-word;
+}

@@ -1,0 +1,154 @@
+body{
+    background-color: #171717;
+    padding-top: 1rem;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;    
+    background-position: center top;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    margin: 0 15% 0 15%;
+}
+
+.navbar-logo{
+    width: 2.5rem;
+}
+
+.navbar-brand{
+    margin-left: 2rem;
+}
+
+.nav-item{
+    color: #DCDCDC;
+}
+
+/*PRESENTATION*/
+
+.brand-presentation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.brand-presentation > img {
+    width: 5rem;
+}
+
+.brand-presentation-text {
+    text-align: center;
+    width: 80%;
+}
+
+.brand-presentation-text-white{
+    color: white; font-size: 64px;
+}
+
+.brand-presentation-text-green{
+    color: #9EC208; font-size: 64px;    
+}
+
+/*PRESENTATION > INFO CARD*/
+
+.brand-presentation-info-card{ /*CENTER ALL 3 CARDS*/
+    display: flex;
+    align-items: center
+}
+
+/*PRESENTATION > INFO CARD > 1*/
+
+.brand-presentation-info-card-1{
+    width: 455px; height: 532px; position: relative; background: linear-gradient(165deg, white 0%, rgba(255, 255, 255, 0) 100%); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 64px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); transform: scale(0.75);
+}
+
+.brand-presentation-info-card-1-title{
+    left: 60px; top: 53px; position: absolute; color: #4A4A4A; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 3.20px; word-wrap: break-word
+}
+
+.brand-presentation-info-card-1-content{
+    width: 336px; height: 180px; left: 60px; top: 86px; position: absolute; color: #171717; font-size: 36px; font-family: Plus Jakarta Sans; font-weight: 600; word-wrap: break-word
+}
+
+.brand-presentation-info-card-1 > img{
+    width: 366px; height: 295px; left: 45px; top: 318px; position: absolute;
+}
+
+/*PRESENTATION > INFO CARD > 2*/
+
+.brand-presentation-info-card-2{
+    width: 455px; height: 532px; position: relative; background: linear-gradient(165deg, #9EC208 0%, rgba(0, 0, 0, 0) 100%); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 64px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); transform: scale(0.75);
+}
+
+.brand-presentation-info-card-2-title{
+    left: 60px; top: 53px; position: absolute; color: white; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 3.20px; word-wrap: break-word
+}
+
+.brand-presentation-info-card-2-content{
+    width: 336px; height: 238px; left: 60px; top: 86px; position: absolute; color: white; font-size: 36px; font-family: Plus Jakarta Sans; font-weight: 600; word-wrap: break-word
+}
+
+.brand-presentation-info-card-2 > img{
+    width: 366px; height: 366px; left: 45px; top: 274px; position: absolute;
+}
+
+/*PRESENTATION > INFO CARD > 3 > 1*/
+
+.brand-presentation-info-card-3{
+}
+
+/*PRESENTATION > INFO CARD > 3 > 1*/
+
+.brand-presentation-info-card-3-1{
+    width: 455px; height: 250px; padding-top: 53px; padding-bottom: 79px; padding-left: 60px; padding-right: 59px; background: linear-gradient(167deg, #171717 0%, rgba(47.81, 47.81, 47.81, 0) 100%); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 64px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex; transform: scale(0.75);
+}
+
+.brand-presentation-info-card-3-1-title{
+    color: white; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 3.20px; word-wrap: break-word;
+}
+
+.brand-presentation-info-card-3-1-content{
+    width: 336px; height: 85px; color: white; font-size: 36px; font-family: Plus Jakarta Sans; font-weight: 600; word-wrap: break-word
+}
+
+/*PRESENTATION > INFO CARD > 3 > 2*/
+
+.brand-presentation-info-card-3-2{
+    width: 455px; height: 250px; margin-top: -2.4rem;padding-top: 53px; padding-bottom: 32px; padding-left: 60px; padding-right: 59px; background: linear-gradient(188deg, white 0%, rgba(255, 255, 255, 0) 100%); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 64px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 8px; display: inline-flex; transform: scale(0.75);
+}
+
+.brand-presentation-info-card-3-2-title{
+    color: #4A4A4A; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 3.20px; word-wrap: break-word;
+}
+
+.brand-presentation-info-card-3-2-content{
+    width: 336px; height: 132px; color: #171717; font-size: 36px; font-family: Plus Jakarta Sans; font-weight: 600; word-wrap: break-word;
+}
+
+/*MOUSE HOVER EFFECT*/
+
+.mouse-cursor-gradient-tracking {
+    cursor: pointer;
+  }
+  
+  .mouse-cursor-gradient-tracking span {
+  }
+  
+  .mouse-cursor-gradient-tracking::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, pink, transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease;
+  }
+  
+  .mouse-cursor-gradient-tracking:hover::before {
+    --size: 200px;
+  }

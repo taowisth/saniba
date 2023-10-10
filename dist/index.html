@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e914982e7e.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css" >
+    <link rel="stylesheet" href="css/font.css" >
+    <link rel="stylesheet" href="css/brief-modal.css" >
+    <link rel="stylesheet" href="css/media.css" >
+
+    <title>Saniba • Freelance management platform for efficient product</title>
+</head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <img class="navbar-logo" src="logo/y-w-navbar.svg">
+        <a class="navbar-brand" href="#">Saniba</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            </li>
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Dealers and Categories<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" class="external" data-micromodal-trigger="modal-1">Give a Brief</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#">Be a Dealer</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa-solid fa-user"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" class="external" data-micromodal-trigger="modal-2">Sign In</a>
+                <a class="dropdown-item" href="#">Log In</a>
+                <a class="dropdown-item" href="#"><button class="logout">logout</button></a>
+                <a class="dropdown-item" href="#"><button class="unsub">Delete your account</button></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 brand-presentation">
+            <img src="logo/w-b-yellow-bg.svg">
+            <div class="brand-presentation-text"><span class="brand-presentation-text-white">Worlds largest </span><span class="brand-presentation-text-green">digital product </span><span class="brand-presentation-text-white">platform.</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="container">
+          <div class="row brand-presentation-info-card">
+            <div class="col-4">
+              <div class="brand-presentation-info-card-1">
+                <div class="brand-presentation-info-card-1-title">START WITH BRIEF</div>
+                <div class="brand-presentation-info-card-1-content">Dive in to specialized brief for best experince.</div>
+                <img src="img/new-folder-dynamic-clay.png" />
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="brand-presentation-info-card-2">
+                <div class="brand-presentation-info-card-2-title">GET PLACE IN SANIBA</div>
+                <div class="brand-presentation-info-card-2-content">Fill a form in Saniba and start your business all over.</div>
+                <img src="img/paint-kit-dynamic-clay.png" />
+              </div>          
+            </div>
+            <div class="col-4 brand-presentation-info-card-3">
+              <div class="brand-presentation-info-card-3-1 mouse-cursor-gradient-tracking">
+                <div class="brand-presentation-info-card-3-1-title">SEE DEALERS</div>
+                <div class="brand-presentation-info-card-3-1-content">Giant Community with benefits</div>
+              </div>
+              <div class="brand-presentation-info-card-3-2">
+                <div class="brand-presentation-info-card-3-2-title">BIG GIGS</div>
+                <div class="brand-presentation-info-card-3-2-content">See previous products done by Saniba</div>
+              </div>          
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+          <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+              <div class="brief-sign-modal">
+                <div class="brief-sign-modal-content">
+                  <div class="brief-sign-modal-content-top">
+                    <div style="justify-content: flex-start; align-items: center; gap: 48px; display: flex">
+                      <img width="100rem" src="logo/w-b-yellow-bg.svg">
+                      <div style="color: white; font-size: 48px; font-family: Plus Jakarta Sans; font-weight: 600; word-wrap: break-word">Just a small verification to catch you.</div>
+                    </div>
+                    <div style="width: 62px; height: 62px; position: relative; background: rgba(255, 255, 255, 0.50); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 31px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px)">
+                      <div style="width: 24px; height: 24px; left: 30.97px; top: 14px; position: absolute; transform: rotate(45deg); transform-origin: 0 0; background: white"></div>
+                    </div>
+                  </div>
+                  <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 35px; display: flex">
+                    <div style="justify-content: flex-start; align-items: center; gap: 46px; display: inline-flex">
+                      <div style="color: white; font-size: 48px; font-family: Chillax Variable; font-weight: 600; word-wrap: break-word">Phone number:</div>
+                      <div style="padding-left: 31px; padding-right: 31px; padding-top: 23px; padding-bottom: 23px; background: rgba(23, 23, 23, 0.50); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 49px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div style="height: 48px; justify-content: space-between; align-items: center; display: flex">
+                          <div style="justify-content: flex-start; align-items: center; gap: 40px; display: flex">
+                            <div style="justify-content: flex-start; align-items: center; gap: 6px; display: flex">
+                              <div style="color: white; font-size: 28px; font-family: Plus Jakarta Sans; font-weight: 800; word-wrap: break-word">+</div>
+                              <div style="color: white; font-size: 48px; font-family: Chillax Variable; font-weight: 600; word-wrap: break-word">🇹🇷</div>
+                            </div>
+                            <form class="signup">
+                              <label for="email">email:</label>
+                              <input type="email" name="email">
+                              <label for="password">password:</label>
+                              <input type="password" name="password">
+                              <button>signupk</button>
+                              </form>
+                            <div style="color: white; font-size: 28px; font-family: Plus Jakarta Sans; font-weight: 800; word-wrap: break-word">500 000 00 00</div>
+                          </div>
+                          <div style="width: 24px; height: 18.32px; background: white"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="width: 857px; padding-left: 296px; padding-right: 296px; padding-top: 18px; padding-bottom: 18px; border-radius: 36px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                      <div style="color: white; font-size: 28px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 2.66px; word-wrap: break-word">CONFIRM</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal micromodal-slide" id="modal-2" aria-hidden="true">
+          <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+              <div class="brief-sign-modal">
+                <div class="brief-sign-modal-content">
+                  <div class="brief-sign-modal-content-top">
+                    <div style="justify-content: flex-start; align-items: center; gap: 48px; display: flex">
+                      <img width="100rem" src="logo/w-b-yellow-bg.svg">
+                      <div style="color: white; font-size: 48px; font-family: Plus Jakarta Sans; font-weight: 600; word-wrap: break-word">Just a small verification to catch you.</div>
+                    </div>
+                    <div style="width: 62px; height: 62px; position: relative; background: rgba(255, 255, 255, 0.50); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 31px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px)">
+                      <div style="width: 24px; height: 24px; left: 30.97px; top: 14px; position: absolute; transform: rotate(45deg); transform-origin: 0 0; background: white"></div>
+                    </div>
+                  </div>
+                  <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 35px; display: flex">
+                    <div style="justify-content: flex-start; align-items: center; gap: 46px; display: inline-flex">
+                      <div style="color: white; font-size: 48px; font-family: Chillax Variable; font-weight: 600; word-wrap: break-word">Phone number:</div>
+                      <div style="padding-left: 31px; padding-right: 31px; padding-top: 23px; padding-bottom: 23px; background: rgba(23, 23, 23, 0.50); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 49px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div style="height: 48px; justify-content: space-between; align-items: center; display: flex">
+                          <div style="justify-content: flex-start; align-items: center; gap: 40px; display: flex">
+                            <div style="justify-content: flex-start; align-items: center; gap: 6px; display: flex">
+                              <div style="color: white; font-size: 28px; font-family: Plus Jakarta Sans; font-weight: 800; word-wrap: break-word">+</div>
+                              <div style="color: white; font-size: 48px; font-family: Chillax Variable; font-weight: 600; word-wrap: break-word">🇹🇷</div>
+                            </div>
+                            <form class="login">
+                              <label for="email">email:</label>
+                              <input type="email" name="email">
+                              <label for="password">password:</label>
+                              <input type="password" name="password">
+                              cada oleae eho
+                              <button>login</button>
+
+                            </form>
+                              <div style="color: white; font-size: 28px; font-family: Plus Jakarta Sans; font-weight: 800; word-wrap: break-word">500 000 00 00</div>
+                          </div>
+                          <div style="width: 24px; height: 18.32px; background: white"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="width: 857px; padding-left: 296px; padding-right: 296px; padding-top: 18px; padding-bottom: 18px; border-radius: 36px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                      <div style="color: white; font-size: 28px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 2.66px; word-wrap: break-word">CONFIRM</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <form class="phone-form">
+        <label for="phoneNumber">email:</label>
+        <input type="phoneNumber" name="phoneNumber">
+        <button>login</button>
+
+      </form>
+      <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script>
+
+      <script src="bundle.js"></script>
+      <script type="module" src="../src/auth.js"></script>
+
+      <script>
+        let btn = document.querySelector('.mouse-cursor-gradient-tracking');
+          btn.addEventListener('mousemove', e => {
+            let rect = e.target.getBoundingClientRect();
+            let x = e.clientX - rect.left;
+            let y = e.clientY - rect.top;
+            btn.style.setProperty('--x', x + 'px');
+            btn.style.setProperty('--y', y + 'px');
+          });
+      </script>
+      <script>
+      </script>
+    </body>
+</html>
