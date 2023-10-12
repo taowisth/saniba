@@ -120,7 +120,7 @@ signupPhone.addEventListener('submit', (e) => {
 
     signInWithPhoneNumber(auth, phoneNumber, appVerifier)
     .then((confirmationResult) => {
-      prompt("jkl")
+      
       // user in with confirmationResult.confirm(code).
       window.confirmationResult = confirmationResult;
       // ...

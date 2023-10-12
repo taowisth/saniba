@@ -18,3 +18,49 @@ body{
 .brief-title{
     margin-top: 2rem;
 }
+
+.categories{
+    margin-top: 2rem;
+}
+
+.brief-cards-1{
+    width: 100%; height: 400px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 21px; display: inline-flex
+}
+
+.brief-cards-1-info-card{
+    width: 100%; height: 385px; position: relative; background: linear-gradient(167deg, rgba(59, 89, 153, 0.50) 0%, rgba(0, 172, 237, 0.50) 100%); box-shadow: 0px 21.493486404418945px 47.592716217041016px rgba(0, 0, 0, 0.25); border-radius: 48px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(110.54px)
+}
+
+.brief-cards-1-info-card-img{
+    width: 50%; left: 281px; top: 100px; position: absolute;
+}
+
+.brief-cards-1-text{
+    flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex
+}
+
+.brief-cards-1-text-title{
+    color: white; font-size: 26px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 0.84px; word-wrap: break-word
+}
+
+.brief-cards-1-text-content{
+    width: 300px; color: #CBCBCB; font-size: 18px; font-family: Plus Jakarta Sans; font-weight: 600; word-wrap: break-word
+}
+
+.info-button-frame{
+    width: 40px; height: 40px; padding-bottom: 0.94px; background: rgba(255, 255, 255, 0.50); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 100%; overflow: hidden; border: 2px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); justify-content: center; align-items: center; display: flex
+}
+
+.info-button-frame > div{
+    color: white; font-size: 20px; font-family: Chillax Variable; font-weight: 500; word-wrap: break-word
+}
+
+.select-button{
+    width: 100%; padding-left: 31px; padding-right: 31px; padding-top: 8px; padding-bottom: 8px; background: rgba(23, 23, 23, 0.50); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 49px; overflow: hidden; border: 4px rgba(255, 255, 255, 0.50) solid; backdrop-filter: blur(72px); justify-content: flex-end; align-items: center; gap: 227px; display: inline-flex
+}
+.select-button > div{
+    color: white; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 800; letter-spacing: 2.66px; word-wrap: break-word
+}
+.select-button:hover{
+    width: 100%; padding-left: 31px; padding-right: 31px; padding-top: 14px; padding-bottom: 14px; background: rgba(23, 23, 23, 0.50); box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.25); border-radius: 49px; overflow: hidden; border: 4px #9EC208 solid; backdrop-filter: blur(72px); justify-content: flex-end; align-items: center; gap: 227px; display: inline-flex
+}
